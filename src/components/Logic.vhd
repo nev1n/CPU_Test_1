@@ -19,4 +19,4 @@ begin
 AndOut <= A and B;
 OrOut  <= A or B;
 
-end rtl_LOGIC;  
+end rtl_LOGIC;

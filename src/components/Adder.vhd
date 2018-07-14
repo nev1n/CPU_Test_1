@@ -1,4 +1,5 @@
---based on VHDL implementation @ https://www.nandland.com/vhdl/modules/module-full-adder.html
+-- 1-bit Adder Unit
+-- based on VHDL implementation @ https://www.nandland.com/vhdl/modules/module-full-adder.html
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -32,4 +33,4 @@ begin
   Sum       <= sum_intermediate_1 xor CarryIn;
   CarryOut  <= carry_intermediate_1 or carry_intermediate_2;
   
-end rtl_ADDER;  
+end rtl_ADDER;
