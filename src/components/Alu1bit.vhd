@@ -21,8 +21,8 @@ end ALU1bit;
 
 architecture struct_ALU1bit of ALU1bit is
   
-  signal a_not_intermediate            :std_logic;
-  signal b_not_intermediate            :std_logic;
+  signal a_not_intermediate           :std_logic;
+  signal b_not_intermediate           :std_logic;
   signal ainvert_intermediate         :std_logic;
   signal binvert_intermediate         :std_logic;
   signal logic_and_out_intermediate   :std_logic;
