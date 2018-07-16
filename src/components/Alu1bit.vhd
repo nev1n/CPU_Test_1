@@ -1,5 +1,5 @@
 --  1 bit ALU based on the Computer Organization and Design of David A.Patterson and John L.Hennessy - RISC V edition, Appendix A
---  Set (into first ALU1bit block), Overflow, Zero detect would be in the final ALU implementation, ie the 32/64 bit ALU module (with a ripple carry design)
+--  Set, Overflow, Zero detect would be in the final ALU implementation, ie the 32/64 bit ALU module (with a ripple carry design)
 
 library ieee;
 use ieee.std_logic_1164.all;
