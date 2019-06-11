@@ -2,13 +2,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity MullerCC is
+entity MullerC is
 	port ( 
 		in_1	: in std_logic;
 		in_2	: in std_logic;
 		out_1		: out std_logic
 		);
-end MullerCC;
+end MullerC;
 
 architecture behaviour_1 of mullerC is
 begin
