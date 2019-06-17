@@ -6,7 +6,7 @@ entity MullerC is
 	port ( 
 		in_1	: in std_logic;
 		in_2	: in std_logic;
-		out_1		: out std_logic
+		out_1	: out std_logic
 		);
 end MullerC;
 
