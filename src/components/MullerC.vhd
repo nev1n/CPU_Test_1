@@ -10,7 +10,7 @@ entity MullerC is
 		);
 end MullerC;
 
-architecture behaviour_1 of mullerC is
+architecture behaviour_1 of MullerC is
 begin
 
 	process (in_1, in_2)
@@ -22,7 +22,7 @@ begin
 end architecture behaviour_1;
 
 
-architecture behaviour_2 of mullerC is
+architecture behaviour_2 of MullerC is
 begin
 	
 	process
