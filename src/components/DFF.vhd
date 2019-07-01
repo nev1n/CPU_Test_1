@@ -9,7 +9,7 @@ entity Dff is
 	);
 	port (
 		clk		:	in std_logic;
-		reset	:	in std_logic;
+		reset		:	in std_logic;
 		d 		:	in std_logic;
 		q		:	out std_logic
 	);
@@ -55,5 +55,7 @@ begin
 			report "Hold Time Violation";
 	end process hold_time_check;
 
+
 end architecture behaviour_time_assert;		
-	
+
+
