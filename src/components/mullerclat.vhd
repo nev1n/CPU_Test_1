@@ -27,4 +27,4 @@ begin
 	
 	Or_tree_fault_bit <= dff1_out_sig xor dff2_out_sig;
 	
-end architecture;
+end behaviour;
